@@ -1,0 +1,83 @@
+.PartClass {
+  /*Checked*/
+  width: 80%;
+  height: 100%;
+  max-height: 100%;
+  position: relative;
+  background-color: white;
+  border-radius: 10px;
+  padding: 5%;
+  overflow: hidden;
+}
+
+.headerClassPart {
+  margin: 0%;
+  font-size: 48px;
+}
+
+.partInfoContainer {
+  background-color: #dff2eb;
+  position: relative;
+  margin: 2% 0% 2% 0%;
+  padding: 2%;
+  height: 70%;
+  border-radius: 10px;
+  font-weight: bold;
+  overflow: auto;
+  box-sizing: border-box;
+  transition: all 0.5s ease-in-out;
+}
+
+.partContainer {
+  background-color: transparent;
+  height: 10%;
+  align-content: center;
+  cursor: pointer;
+  border-radius: 10px;
+  padding-left: 2%;
+  padding-right: 2%;
+  transition: all 0.5s ease-in-out;
+}
+
+.partContainer:hover {
+  background-color: #b9e5e8;
+}
+
+.partContainerClicked {
+  align-content: self-start;
+  height: 50%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.partDetails {
+  margin-top: 2%;
+  height: 60%;
+  background-color: white;
+  padding: 3%;
+  border-radius: 10px;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.partDetails label {
+  margin: 1%;
+}
+
+.partDetails input {
+  margin: 1%;
+  padding-left: 1%;
+}
+
+.deletePart {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+.deleteButton {
+  width: 60%;
+  height: 50%;
+}
